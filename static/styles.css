@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url("https://chopergame.github.io/images/pattern-background-desktop.svg");
+    background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--pale-blue);
@@ -139,4 +139,18 @@ button {
 .cancel-reference:hover {
     color: black;
     font-weight: 900;
+}
+
+.author-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.author {
+    text-decoration: none;
+}
+
+.author:hover {
+    opacity: 0.8;
 }
